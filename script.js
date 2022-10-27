@@ -1,3 +1,4 @@
+// Nav Section ========================
 const nav = document.querySelector("nav");
 window.addEventListener("scroll", () =>{
     if(window.pageYOffset >60){

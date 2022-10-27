@@ -20,7 +20,7 @@
         
                     <div class="info">
                         <h4>Jane Cooper</h4>
-                        <p class="company">Developer, Sony</p>
+                        <p class="company">Mental Health, cmw</p>
                     </div>
         
                     <img src="images/client1.png" alt="" />
@@ -31,7 +31,7 @@
         
                     <div class="info">
                         <h4>Jacob Jones</h4>
-                        <p class="company">Designer, Facebook</p>
+                        <p class="company">psychologist,cmw</p>
                     </div>
         
                     <img src="images/client2.png" alt="" />
