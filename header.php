@@ -33,8 +33,43 @@
               </li>
             </ul>
           </nav>
+
+    <!-- Mobile Nav
+  ===============================-->
+    <nav class="mobile-nav" >
+      <div class="logo">CMW.</div>
+      <div class="menu-icon">
+        <img src="images/menu-icon.png" alt="Menu Img">
+      </div>
+    </nav>
+
+    <!-- mobileNav Container  
+  ====================================== -->
+
+  <div class="mobile-menu-container">
+    <div class="close-icon">
+      <img src="images/close4.png" alt="close Icon">
+    </div>
+    <ul>
+              <li>
+                <a href="#">About</a>
+              </li>
   
-         
+              <li>
+                <a href="#">Services</a>
+              </li>
+  
+              <li>
+                <a href="#">Our Work</a>
+              </li>
+  
+              <li>
+                <a href="#" class="btn dark">Enrol Now</a>
+              </li>
+      </ul>
+  </div>
+
+
           <!-- hero section  
         ========================================= -->
   
@@ -46,8 +81,7 @@
               </h1>
   
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis voluptatum ratione, 
-                 adipisci ipsum aliquam animi consequuntur, facilis placeat ad atque
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque 
                  porro non quis cupiditate dolorem corrupti deserunt laboriosam tempore dolorum sint magni suscipit..
               </p>
   
@@ -88,6 +122,8 @@
           </div>
         </div>
       </header>
-    
+<!-- script file link   -->
+
+<script src="/script.js"></script>
 </body>
 </html>
