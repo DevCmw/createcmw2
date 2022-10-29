@@ -849,8 +849,9 @@ nav.mobile-nav,
   }
 
   .hero-section .right img{
-    height: 400px;
-    transform: translateX(70px);
+    /* height: 400px;
+    transform: translateX(70px); */
+    display: none;
 
   }
 

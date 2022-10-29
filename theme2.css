@@ -854,8 +854,7 @@
     }
   
     .hero-section .right img{
-      height: 400px;
-      transform: translateX(70px);
+    display: none;
   
     }
   
