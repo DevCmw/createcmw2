@@ -57,7 +57,7 @@
                 </a>
   
                 <a href="#">
-                  <img src="images/instagram-icon.png" alt="Social Icon" />
+                  <img src="images/insta2.png" alt="Social Icon" />
                 </a>
               </div>
   
