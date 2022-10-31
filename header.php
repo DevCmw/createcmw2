@@ -11,11 +11,11 @@
               </li>
   
               <li>
-                <a href="#">Services</a>
+                <a href="./container/contact.php">Courses</a>
               </li>
   
               <li>
-                <a href="#">Our Work</a>
+                <a href="./container/contact.php">Contact Us</a>
               </li>
   
               <li>
@@ -46,15 +46,10 @@
               </li>
   
               <li>
-                <a href="#">Services</a>
+                <a href="./container/course.php">Course</a>
               </li>
-  
               <li>
-                <a href="#">Our Work</a>
-              </li>
-
-              <li>
-                <a href="#">Contact Us</a>
+                <a href="./container/contact.php">Contact Us</a>
               </li>
   
               <li>

@@ -21,13 +21,13 @@
 
       <!-- testimonial section 
     ================================ -->
-    <?php include './container/testimonial.php';?>
+    <?php  include './container/testimonial.php';?>
 
  
 
       <!-- Course Section  
     ======================================= -->
-    <?php include './container/course.php';?>
+    <?php include 'container/course.php';?>
   
 
       <!-- App Section  

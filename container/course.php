@@ -1,5 +1,5 @@
 
-     <section class="courses-section">
+     <section class="courses-section" id = "courses">
         <div class="wrapper">
           <h2 class="light">Our Courses</h2>
   
