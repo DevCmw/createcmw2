@@ -544,6 +544,38 @@ nav.mobile-nav,
   display: none;
 }
 
+/* Contact Us Page Style
+=========================== */
+
+.contact{
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  padding: 70px 0;
+  padding-bottom: 120px;
+}
+.contact h2 {
+  text-align: center;
+} 
+.contact .map{
+ width: fit-content;
+ height: fit-content;
+  /* border: 1px solid red; */
+}
+.contact .map iframe{
+  width: 79vw;
+  /* height: 40vh; */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
 /*=====================================================
    @media Section Start from Here 
   ============================================== */

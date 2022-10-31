@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <!-- style links below  -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <!-- <link rel="stylesheet" href="../assets/css/theme1.css"> -->
-    <!-- <link rel="stylesheet" href="../assets/css/theme2.css"> -->
+    <!-- style links below 
+  ============================== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/css/theme1.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/theme2.css"> -->
+
 
 </head>
 <body>
-    <!-- header section  
+    <!-- header section 
     ============================ -->
     <?php include 'header.php';?>
   
@@ -31,13 +33,12 @@
       <!-- App Section  
     =============================== -->
      <?php include './container/app.php';?>
-     <?php include './container/contact.php';?>
-
-
-
+     
+     
+     
      <!-- Contact Us 
-    ========================= -->
-
+     ========================= -->
+     <?php include './container/contact.php';?>
 
 
     <!-- Footer section 
@@ -47,7 +48,12 @@
 
   <!-- Script File below
 =============================== -->
-<script src="../assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
+
+<!-- font-icon script below  
+======================= -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
 </body>
