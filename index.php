@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <!-- style links below  -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <!-- <link rel="stylesheet" href="theme1.css"> -->
-    <link rel="stylesheet" href="theme2.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- <link rel="stylesheet" href="../assets/css/theme1.css"> -->
+    <!-- <link rel="stylesheet" href="../assets/css/theme2.css"> -->
 
 </head>
 <body>
@@ -31,6 +31,13 @@
       <!-- App Section  
     =============================== -->
      <?php include './container/app.php';?>
+     <?php include './container/contact.php';?>
+
+
+
+     <!-- Contact Us 
+    ========================= -->
+
 
 
     <!-- Footer section 
@@ -40,7 +47,7 @@
 
   <!-- Script File below
 =============================== -->
-<script src="./script.js"></script>
+<script src="../assets/js/script.js"></script>
 
 
 </body>

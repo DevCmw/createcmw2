@@ -83,7 +83,7 @@
             </div>
   
             <div class="right">
-              <img src="images/nav-right.jpeg" alt="" />
+              <img src="images/right-nav3.png" alt="" />
             </div>
 
             <!-- Achievement Cards  
