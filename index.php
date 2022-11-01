@@ -7,9 +7,9 @@
     <title>Home Page</title>
     <!-- style links below 
   ============================== -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
     <!-- <link rel="stylesheet" href="./assets/css/theme1.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/theme2.css"> -->
+    <link rel="stylesheet" href="./assets/css/theme2.css">
 
 
 </head>

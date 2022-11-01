@@ -786,7 +786,7 @@ nav.mobile-nav,
     
       /* @media at  Course Section  
       =========================== */
-      .courses-section .course-cards {
+      .courses-section .course-cards{
         flex-direction: column;
         gap: 80px;
       }
@@ -919,18 +919,11 @@ nav.mobile-nav,
         text-decoration: none;
         font-size: 30px;
       }  
-
-      /* Contact Us  
-      ========================*/
-      .contact-section1 .left {
-      
-
-      }
     
     }
     
     /*==================================
-     @media at 700px  *
+     @media at 700px *
      ===========================================*/
     
     
@@ -1047,7 +1040,6 @@ nav.mobile-nav,
         max-width: fit-content;
         
       }
-     
 
 
 

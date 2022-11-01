@@ -459,6 +459,107 @@
   .app-section .app-buttons .app-btn {
     width: 50%;
   }
+
+ /*===========================================
+ Contact Us Page Style
+=========================== */
+
+.contact{
+  background: linear-gradient(180deg, #d6b5ca 0%, #a697dd 100%);
+  padding: 70px 0;
+  padding-bottom: 120px;
+}
+.contact h2 {
+  text-align: center;
+} 
+.contact .map{
+ max-width: fit-content;
+ margin: 4rem auto;
+}
+.contact .map iframe{
+  width: 85vw;
+  height: 45vh;
+  border-radius: 0.6rem;
+}
+
+/*Contact Section1 Style 
+================================ */
+
+.contact-section1 {
+
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+.contact-section1  h3 {
+  color:var(--dark-blue-color);
+   font-size: 1.8rem;
+   margin-top: 0;
+}
+
+/* left Section style 
+= */
+
+.contact-section1 .left form input{
+  width: 45%;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+.contact-section1 .left form textarea{
+  width: 94%;
+  font-size: 1.2rem;
+  margin-bottom: 2.3rem;
+  border-radius: 4px;
+
+}
+
+.contact-section1 .left form input[type= "button"]{
+  width: 30%;
+  border-radius: 0.7rem;
+  color: #fff;
+  background-color: var(--dark-blue-color);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* right section st/yle 
+============  */
+.contact-section1 .right {
+  width: 90vh;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.contact-section1 .right p {
+  color: #fff;
+}
+
+.contact-section1 .right .information{
+  margin-top: 2rem;
+
+}
+.contact-section1 .right .information div {
+  display: flex;
+  align-items: center;
+
+
+}
+.contact-section1 .right .information div span {
+  font-size: 1.8rem;
+  color: var(--dark-blue-color);
+  margin-right: 1.2rem;
+  
+}
+.contact-section1 .right .information div p{
+  color: white;
+}
+
+
   
   /* Footer Section 
     =========================== */
@@ -548,187 +649,205 @@
     display: none;
   }
   
+
+  
   /*=====================================================
      @media Section Start from Here 
     ============================================== */
-  
+
     /* @media on 1100px  */
-  @media (max-width: 1100px) {
-    .btn {
-      padding: 12px 32px;
-    }
-  
-    .wrapper {
-      padding: 0 100px;
-    }
-  
-    nav {
-      width: 100%;
-      left: 0;
-      right: 0;
-      padding: 36px 100px;
-    }
-  
-    nav.scrolled {
-      padding: 16px 100px;
-    }
-  
-    header,
-    .hero-section,
-    header .wrapper {
-      max-width: 1100px;
-    }
-  
-    .hero-section {
-      flex-direction: column;
-    }
-  
-    .hero-section .left {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .hero-section .left .btn {
-      align-self: flex-start;
-    }
-  
-    .hero-section .left h1 {
-      font-size: 50px;
-      line-height: 125%;
-    }
-  
-    .hero-section .right {
-      position: absolute;
-      bottom: 0;
-    }
-  
-    .hero-section .right img {
-      height: 500px;
-    }
-  
-    .hero-section .achievement-card {
-      position: relative;
-      margin-bottom: 80px;
-    }
-  
-    .achievement-card.students-enrolled,
-    .achievement-card.overall-rating {
-      left: unset;
-      top: unset;
-    }
-  
-    .hero-section .achievement-cards {
-      align-self: flex-start;
-      margin: 40px;
-    }
-  
-    /* @media on Testimonial sectoin  
-      ========================== */
-  
-    h2 {
-      font-size: 40px;
-    }
-  
-    .testimonials-section {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 50px;
-    }
-  
-    .testimonials-section .testimonial-card {
-      width: 100%;
-      margin-bottom: 40px;
-    }
-  
-    .testimonials-section 
-    .testimonial-card:last-child::before {
-      top: -40px;
-      left: 60px;
-      height: calc(100%+ 80px);
-    }
-  
-    .testimonials-section 
-    .testimonial-card:last-child {
-      transform: translateX(0px);
-      margin-bottom: 0;
-    }
-  
-    .testimonials-section .desktop-btn {
-      display: none;
-    }
-  
-    .testimonials-section .mobile-btn {
-      display: block;
-      align-self: flex-end;
-      order: 3;
-    }
-  
-    .testimonials-section .right {
-      order: 1;
-    }
-  
-    .testimonials-section .left {
-      order: 2;
-    }
-  
-    .testimonials-section .right p {
-      display: inline;
-    }
+    @media (max-width: 1100px) {
+      .btn {
+        padding: 12px 32px;
+      }
     
-    .testimonials-section h2{
-      margin-bottom: 20px;
+      .wrapper {
+        padding: 0 100px;
+      }
+    
+      nav {
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 36px 100px;
+      }
+    
+      nav.scrolled {
+        padding: 16px 100px;
+      }
+    
+      header,
+      .hero-section,
+      header .wrapper {
+        max-width: 1100px;
+      }
+    
+      .hero-section {
+        flex-direction: column;
+      }
+    
+      .hero-section .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      .hero-section .left .btn {
+        align-self: flex-start;
+      }
+    
+      .hero-section .left h1 {
+        font-size: 50px;
+        line-height: 125%;
+      }
+    
+      .hero-section .right {
+        position: absolute;
+        bottom: 0;
+      }
+    
+      .hero-section .right img {
+        height: 500px;
+      }
+    
+      .hero-section .achievement-card {
+        position: relative;
+        margin-bottom: 80px;
+      }
+    
+      .achievement-card.students-enrolled,
+      .achievement-card.overall-rating {
+        left: unset;
+        top: unset;
+      }
+    
+      .hero-section .achievement-cards {
+        align-self: flex-start;
+        margin: 40px;
+      }
+    
+      /* @media on Testimonial sectoin  
+        ========================== */
+    
+      h2 {
+        font-size: 40px;
+      }
+    
+      .testimonials-section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 50px;
+      }
+    
+      .testimonials-section .testimonial-card {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    
+      .testimonials-section 
+      .testimonial-card:last-child::before {
+        top: -40px;
+        left: 60px;
+        height: calc(100%+ 80px);
+      }
+    
+      .testimonials-section 
+      .testimonial-card:last-child {
+        transform: translateX(0px);
+        margin-bottom: 0;
+      }
+    
+      .testimonials-section .desktop-btn {
+        display: none;
+      }
+    
+      .testimonials-section .mobile-btn {
+        display: block;
+        align-self: flex-end;
+        order: 3;
+      }
+    
+      .testimonials-section .right {
+        order: 1;
+      }
+    
+      .testimonials-section .left {
+        order: 2;
+      }
+    
+      .testimonials-section .right p {
+        display: inline;
+      }
+      
+      .testimonials-section h2{
+        margin-bottom: 20px;
+      }
+    
+      /* @media at  Course Section  
+      =========================== */
+      .courses-section .course-cards {
+        flex-direction: column;
+        gap: 80px;
+      }
+    
+      .courses-section .course-card {
+        margin: 0;
+      }
+    
+      .courses-section h2 {
+        margin-bottom: 40px;
+      }
+    
+      .courses-section .course-card img {
+        height: 260px;
+        object-fit: cover;
+      }
+    
+      .courses-section .course-card h3{
+        font-size:24px;
+      }
+    
+      .courses-section .btn {
+        right: 100px;
+      }
+      .courses-section .wrapper .btn {
+        position: absolute;
+        right: 91px;
     }
+      .courses-section .course-card:last-child {
+        margin-bottom: 50px;
+      }
   
-    /* @media at  Course Section  
-    =========================== */
-    .courses-section .course-cards {
-      flex-direction: column;
-      gap: 80px;
+      /* Contact US 
+        ====================== */
+        .contact .map iframe {
+          width: 80vw;
+          height: 40vh;
+        }
+  
+        .contact-section1 .left form input {
+          width: 93%;
+        }
+  
+        .contact-section1 .left form input[type= 'button'] {
+          width: 43%;
+        }
+    
+    
+      /* @media Footer Section  
+      ==============================*/
+      footer .links-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    
+      footer .links-container .links:last-child {
+        grid-column: 1 / 3;
+      }
+    
     }
-  
-    .courses-section .course-card {
-      margin: 0;
-    }
-  
-    .courses-section h2 {
-      margin-bottom: 40px;
-    }
-  
-    .courses-section .course-card img {
-      height: 260px;
-      object-fit: cover;
-    }
-  
-    .courses-section .course-card h3{
-      font-size:24px;
-    }
-  
-    .courses-section .btn {
-      right: 100px;
-    }
-    .courses-section .wrapper .btn {
-      position: absolute;
-      right: 91px;
-  }
-    .courses-section .course-card:last-child {
-      margin-bottom: 50px;
-    }
-  
-  
-    /* @media Footer Section  
-    ==============================*/
-    footer .links-container {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    footer .links-container .links:last-child {
-      grid-column: 1 / 3;
-    }
-  
-  }
-  
+
+    
   /* @media on 800px 
   ============================== */
   /* @media nav style  */
@@ -854,7 +973,7 @@
     }
   
     .hero-section .right img{
-    display: none;
+      display: none;
   
     }
   
@@ -914,6 +1033,14 @@
     .app-section .app-buttons .app-btn{
       width: 74%;
     }
+
+     /* Contact Us  */
+     .contact-section1{
+      flex-direction: column-reverse;
+    }
+    .contact-section1 .right{
+      max-width: fit-content;
+    }
   
     /*footer section*/
   
@@ -940,9 +1067,9 @@
       margin-top: 80px;
       text-align: center;
     }
-     
    }
-   
+  
+    
    
   
   

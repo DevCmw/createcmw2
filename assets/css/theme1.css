@@ -1,8 +1,8 @@
 :root {
     --orange-color: #7c9e4b;  /**heading */
-    --dark-blue-color: #7c9e4b;
+    --dark-blue-color: #124126;
     --dark-color: #122517;;  /**footer */
-    --light-color: #ffdcf4; /**buttons */
+    --light-color: #c6d75f; /**buttons */
     --light-blue-color: #406c3c; /**nav */
   }
   
@@ -459,7 +459,109 @@
   .app-section .app-buttons .app-btn {
     width: 50%;
   }
+
+
+  /*===========================================
+ Contact Us Page Style
+=========================== */
+
+.contact{
+  background: linear-gradient(180deg, #98b842 0%, #7c9e4b 100%);
+  padding: 70px 0;
+  padding-bottom: 120px;
+}
+.contact h2 {
+  text-align: center;
+} 
+.contact .map{
+ max-width: fit-content;
+ margin: 4rem auto;
+}
+.contact .map iframe{
+  width: 85vw;
+  height: 45vh;
+  border-radius: 0.6rem;
+}
+
+/*Contact Section1 Style 
+================================ */
+
+.contact-section1 {
+
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+.contact-section1  h3 {
+  color:var(--dark-blue-color);
+   font-size: 1.8rem;
+   margin-top: 0;
+}
+
+/* left Section style 
+= */
+
+.contact-section1 .left form input{
+  width: 45%;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+.contact-section1 .left form textarea{
+  width: 94%;
+  font-size: 1.2rem;
+  margin-bottom: 2.3rem;
+  border-radius: 4px;
+
+}
+
+.contact-section1 .left form input[type= "button"]{
+  width: 30%;
+  border-radius: 0.7rem;
+  color: #fff;
+  background-color: var(--dark-blue-color);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* right section st/yle 
+============  */
+.contact-section1 .right {
+  width: 90vh;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+
+.contact-section1 .right p {
+  color: #fff;
+}
+
+.contact-section1 .right .information{
+  margin-top: 2rem;
+
+}
+.contact-section1 .right .information div {
+  display: flex;
+  align-items: center;
+
+
+}
+.contact-section1 .right .information div span {
+  font-size: 1.8rem;
+  color: var(--dark-blue-color);
+  margin-right: 1.2rem;
   
+}
+.contact-section1 .right .information div p{
+  color: white;
+}
+
+
   /* Footer Section 
     =========================== */
   
@@ -548,10 +650,13 @@
     display: none;
   }
   
+  
   /*=====================================================
      @media Section Start from Here 
     ============================================== */
   
+
+
     /* @media on 1100px  */
   @media (max-width: 1100px) {
     .btn {
@@ -715,6 +820,21 @@
     .courses-section .course-card:last-child {
       margin-bottom: 50px;
     }
+
+    /* Contact US 
+      ====================== */
+      .contact .map iframe {
+        width: 80vw;
+        height: 40vh;
+      }
+
+      .contact-section1 .left form input {
+        width: 93%;
+      }
+
+      .contact-section1 .left form input[type= 'button'] {
+        width: 43%;
+      }
   
   
     /* @media Footer Section  
@@ -913,6 +1033,14 @@
     }
     .app-section .app-buttons .app-btn{
       width: 74%;
+    }
+
+     /* Contact Us  */
+     .contact-section1{
+      flex-direction: column-reverse;
+    }
+    .contact-section1 .right{
+      max-width: fit-content;
     }
   
     /*footer section*/
