@@ -1,6 +1,6 @@
 <!-- contact us page  -->
   
-<section class="contact">
+<section id="contact_us" class="contact">
         <div class="wrapper">
           <h2 class= "light">Contact Us</h2>
           <div class="map ">
@@ -13,12 +13,12 @@
           <!-- left div  -->
           <div class="left">
             <h3 >Send us a message</h3>
-            <form action="#">
-              <input type="text" placeholder="Your Name" required>
-              <input type="email" placeholder="Your Email" required>
-              <input type="number" placeholder="Phone Number" max= "10" required>
-              <textarea name="" id="textarea" cols="30" rows="10"  placeholder = "Write message here..."  require></textarea >
-              <input type="submit" value = "Submit">
+            <form >
+              <input type="text" id="name"  placeholder="Your Name" required autocomplete = "off" >
+              <input type="email" id = "email"  placeholder="Your Email" required autocomplete = "off" >
+              <input type="number" id = "number"  placeholder="Phone Number" maxlength="10" required autocomplete = "off" >
+              <textarea  id="textarea"   cols="30" rows="10"  placeholder = "Write message here..." autocomplete = "off"  require></textarea >
+              <input type="button" value = "Submit" onclick = "submitForm()" >
             </form>
           </div>
           

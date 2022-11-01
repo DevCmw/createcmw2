@@ -456,7 +456,114 @@ section p {
   width: 50%;
 }
 
-/* Footer Section 
+
+
+/*===========================================
+ Contact Us Page Style
+=========================== */
+
+.contact{
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  padding: 70px 0;
+  padding-bottom: 120px;
+}
+.contact h2 {
+  text-align: center;
+} 
+.contact .map{
+ max-width: fit-content;
+ margin: 4rem auto;
+}
+.contact .map iframe{
+  width: 85vw;
+  height: 45vh;
+  border-radius: 0.6rem;
+}
+
+/*Contact Section1 Style 
+================================ */
+
+.contact-section1 {
+
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+.contact-section1  h3 {
+  color:var(--dark-blue-color);
+   font-size: 1.8rem;
+   margin-top: 0;
+}
+
+/* left Section style 
+= */
+
+.contact-section1 .left form input{
+  width: 45%;
+font-size: 1.2rem;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+.contact-section1 .left form textarea{
+  width: 94%;
+  font-size: 1.2rem;
+  margin-bottom: 2.3rem;
+  border-radius: 4px;
+
+}
+
+.contact-section1 .left form input[type= "button"]{
+  width: 30%;
+  border-radius: 0.7rem;
+  background-color: var(--orange-color);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* right section st/yle 
+============  */
+.contact-section1 .right {
+  width: 90vh;
+
+  box-sizing: border-box;
+  border-radius: 4px;
+
+
+}
+
+.contact-section1 .right p {
+  color: #fff;
+}
+
+.contact-section1 .right .information{
+  margin-top: 2rem;
+
+}
+.contact-section1 .right .information div {
+  display: flex;
+  align-items: center;
+
+
+}
+.contact-section1 .right .information div span {
+  font-size: 1.8rem;
+  color: var(--orange-color);
+  margin-right: 1.2rem;
+  
+}
+.contact-section1 .right .information div p{
+  color: white
+}
+
+
+
+
+/*=================================================
+ Footer Section 
   =========================== */
 
 footer {
@@ -542,105 +649,6 @@ footer .copyright {
 nav.mobile-nav,
 .mobile-menu-container {
   display: none;
-}
-
-/* Contact Us Page Style
-=========================== */
-
-.contact{
-  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 70px 0;
-  padding-bottom: 120px;
-}
-.contact h2 {
-  text-align: center;
-} 
-.contact .map{
- max-width: fit-content;
- margin: 4rem auto;
-}
-.contact .map iframe{
-  width: 85vw;
-  height: 45vh;
-  border-radius: 0.6rem;
-}
-
-/*Contact Section1 Style 
-================================ */
-
-.contact-section1 {
-
-  display: flex;
-  gap: 1.2rem;
-  justify-content: space-between;
-}
-.contact-section1  h3 {
-  color:var(--dark-blue-color);
-   font-size: 1.8rem;
-   margin-top: 0;
-}
-
-/* left Section style 
-= */
-
-.contact-section1 .left form input{
-  width: 45%;
-font-size: 1.2rem;
-  padding: 0.7rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-right: 20px;
-  margin-bottom: 18px;
-}
-.contact-section1 .left form textarea{
-  width: 94%;
-  font-size: 1.2rem;
-  margin-bottom: 2.3rem;
-  border-radius: 4px;
-
-}
-
-.contact-section1 .left form input[type= "submit"]{
-  width: 30%;
-  border-radius: 0.7rem;
-  background-color: var(--orange-color);
-  font-size: 1.4rem;
-}
-
-/* right section st/yle 
-============  */
-.contact-section1 .right {
-  width: 90vh;
-
-  box-sizing: border-box;
-  border-radius: 4px;
-
-
-}
-
-.contact-section1 .right p {
-  color: #fff;
-}
-
-.contact-section1 .right .information{
-  margin-top: 2rem;
-
-}
-.contact-section1 .right .information div {
-  display: flex;
-  align-items: center;
-
-
-}
-.contact-section1 .right .information div span {
-  font-size: 1.8rem;
-  color: var(--orange-color);
-  margin-right: 1.2rem;
-  
-}
-.contact-section1 .right .information div p{
-  color: white
 }
 
   /*=====================================================
@@ -822,7 +830,7 @@ font-size: 1.2rem;
         width: 93%;
       }
 
-      .contact-section1 .left form input[type= 'submit'] {
+      .contact-section1 .left form input[type= 'button'] {
         width: 43%;
       }
     
