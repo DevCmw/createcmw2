@@ -21,13 +21,16 @@
 
       <!-- testimonial section 
     ================================ -->
-    <?php  include './container/testimonial.php';?>
+    <?php  include './container/testimonial.php'; ?>
 
  
 
       <!-- Course Section  
     ======================================= -->
-    <?php include 'container/course.php';?>
+    <div id="course">
+      <?php include './container/course.php'?>
+
+    </div>
   
 
       <!-- App Section  
@@ -38,7 +41,9 @@
      
      <!-- Contact Us 
      ========================= -->
+     <div id="contact_us">
      <?php include './container/contact.php';?>
+     </div>
 
 
     <!-- Footer section 

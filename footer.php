@@ -13,7 +13,7 @@
                 </li>
   
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="#contact_us">Contact Us</a>
                 </li>
   
                 <li>
@@ -39,7 +39,7 @@
                 </li>
   
                 <li>
-                  <a href="#">All Courses</a>
+                  <a href="#course">All Courses</a>
                 </li>
               </ul>
             </div>
