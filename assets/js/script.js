@@ -25,3 +25,28 @@ menuIcon.addEventListener("click", ()=> {
 closeIcon.addEventListener("click", ()=> {
     mobileMenuContainer.classList.remove("active");
 })
+
+
+// Contact Us Script below
+//=====================================================
+
+let data = []
+function submitForm(){
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let number = document.getElementById("number").value;
+    let message = document.getElementById("textarea").value;
+    
+    let userObj  = {
+        name,
+        email,
+        number,
+        message
+    }
+
+    data.push(userObj)
+    // console.log(data)
+    localStorage.setItem("userData",JSON.stringify(data))
+}
+
+
