@@ -15,7 +15,7 @@
             <h3 >Send us a message</h3>
             <form >
               <input type="text" id="name"  placeholder="Your Name" required autocomplete = "off" >
-              <input type="email" id = "email"  placeholder="Your Email" required autocomplete = "off" >
+              <input type="email" id="email" pattern="^[a-zA-Z0-9]+@gmail\.com$" size="30" placeholder = "Your Email" required>
               <input type="number" id = "number"  placeholder="Phone Number" maxlength="10" required autocomplete = "off" >
               <textarea  id="textarea"   cols="30" rows="10"  placeholder = "Write message here..." autocomplete = "off"  require></textarea >
               <input type="button" value = "Submit" onclick = "submitForm()" >
