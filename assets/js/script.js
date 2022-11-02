@@ -8,21 +8,21 @@ const mobileMenuContainer = document.querySelector(".mobile-menu-container");
 
 
 
-window.addEventListener("scroll", () =>{
-    if(window.pageYOffset >60){
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 60) {
         nav1.classList.add("scrolled");
         mobileNav.classList.add("scrolled")
-    }else{
+    } else {
         nav1.classList.remove("scrolled")
         mobileNav.classList.remove("scrolled")
     }
 })
 
-menuIcon.addEventListener("click", ()=> {
+menuIcon.addEventListener("click", () => {
     mobileMenuContainer.classList.add("active")
 })
 
-closeIcon.addEventListener("click", ()=> {
+closeIcon.addEventListener("click", () => {
     mobileMenuContainer.classList.remove("active");
 })
 
@@ -31,22 +31,39 @@ closeIcon.addEventListener("click", ()=> {
 //=====================================================
 
 let data = []
-function submitForm(){
+function submitForm() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let number = document.getElementById("number").value;
     let message = document.getElementById("textarea").value;
-    
-    let userObj  = {
+
+    let userObj = {
         name,
         email,
         number,
         message
     }
 
-    data.push(userObj)
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if (name && email && number && message) {
+        if (email.match(mailformat)) {
+            if(number.length == 10){
+                data.push(userObj);
+                alert("😎 Sent Successfully")
+            }
+            else {
+                alert("Envalied Number")
+            }
+        }
+        else {
+            alert("Envalied Email");
+        }
+    } else {
+        alert("🧐 Please fill all fields.")
+    }
     // console.log(data)
-    localStorage.setItem("userData",JSON.stringify(data))
+    localStorage.setItem("userData", JSON.stringify(data))
 }
 
 
