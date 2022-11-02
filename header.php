@@ -1,5 +1,5 @@
 
-     <!-- header section  
+     <!-- header section  Start
     ============================ -->
     <header>
         <div class="wrapper">
@@ -24,7 +24,7 @@
             </ul>
           </nav>
 
-    <!-- Mobile Nav
+    <!-- Mobile Nav Start
   ===============================-->
     <nav class="mobile-nav" >
       <div class="logo">CMW.</div>
@@ -33,7 +33,9 @@
       </div>
     </nav>
 
-    <!-- mobileNav Container  
+    <!-- Mobile Nav End ================= -->
+
+    <!-- mobileNav section  Start
   ====================================== -->
 
   <div class="mobile-menu-container">
@@ -57,9 +59,10 @@
               </li>
       </ul>
   </div>
+  <!-- mobileNav section End ============ -->
 
 
-          <!-- hero section  
+          <!-- hero section  Start
         ========================================= -->
   
           <div class="hero-section">
@@ -81,9 +84,8 @@
               <img src="images/right-nav3.png" alt="" />
             </div>
 
-            <!-- Achievement Cards  
-            ============================ -->
-  
+            <!-- Achievement Cards Start
+            ============================ -->  
             <div class="achievement-cards">
               <div class="achievement-card students-enrolled">
                 <div class="content">
@@ -108,6 +110,9 @@
                 <div class="bg"></div>
               </div>
             </div>
+            <!-- Achievement Cards End ==== -->
+
           </div>
         </div>
       </header>
+      <!-- header Section End  ============== -->

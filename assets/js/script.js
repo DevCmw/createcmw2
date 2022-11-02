@@ -1,4 +1,4 @@
-// Nav Section ========================
+// Nav Section Start ========================
 const nav1 = document.querySelector("nav");
 const mobileNav = document.querySelector("nav.mobile-nav");
 const menuIcon = document.querySelector(".menu-icon");
@@ -25,9 +25,9 @@ menuIcon.addEventListener("click", () => {
 closeIcon.addEventListener("click", () => {
     mobileMenuContainer.classList.remove("active");
 })
+// Nav Section End============
 
-
-// Contact Us Script below
+// Contact Us Script Start
 //=====================================================
 
 let data = []
@@ -45,7 +45,6 @@ function submitForm() {
     }
 
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
     if (name && email && number && message) {
         if (email.match(mailformat)) {
             if(number.length == 10){
@@ -53,17 +52,16 @@ function submitForm() {
                 alert("😎 Sent Successfully")
             }
             else {
-                alert("Envalied Number")
+                alert("Invalid Number (should 10 digit only")
             }
         }
         else {
-            alert("Envalied Email");
+            alert("Should be xyz@gmail.com");
         }
     } else {
-        alert("🧐 Please fill all fields.")
+        alert("Please fill all fields.");
     }
-    // console.log(data)
     localStorage.setItem("userData", JSON.stringify(data))
 }
-
+// Contact us End ===========
 

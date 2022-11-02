@@ -8,9 +8,9 @@
                style="border:0;" allowfullscreen="" loading="lazy" 
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          
+
         <div class="contact-section1">
-          <!-- left div  -->
+          <!-- left div  Start-->
           <div class="left">
             <h3 >Send us a message</h3>
             <form >
@@ -21,8 +21,9 @@
               <input type="button" value = "Submit" onclick = "submitForm()" >
             </form>
           </div>
+          <!-- left div end  -->
           
-          <!-- right div  -->
+          <!-- right div Start=========== -->
           <div class="right">
             <h3>Contact Information</h3>
             <p>Lorem ipsum dolor sit elit. Fugiat, vero. Incidunt repellendus asperiores autem maiores cupiditate recusandae, aperiam aspernatur explicabo corporis animi expedita.</p>
@@ -38,6 +39,7 @@
               </div>
             </div>
           </div>
+          <!-- right div End === -->
         </div>
         </div>
      </section>

@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-/* Buttons Style
+/* Buttons Style Start
   ========================*/
 
 .btn {
@@ -56,8 +56,10 @@ body {
 .btn.enrol-icon {
   padding-left: 60px;
 }
+/* Buttons Style End */
 
-/* Header Section
+
+/* Header Section Start
   =========================== */
 
 header {
@@ -108,7 +110,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Hero Section  
+/* Hero Section  Start
   =======================*/
 
 .hero-section {
@@ -150,8 +152,9 @@ nav ul li a {
   height: 520px;
   vertical-align: middle;
 }
+/* hero section End === */
 
-/* Achievement Style
+/* Achievement Start
   ============================= */
 
 .achievement-card {
@@ -217,8 +220,9 @@ nav ul li a {
   left: 8px;
   z-index: 1;
 }
+/* .achievement End=== */
 
-/* Testimonials Section 
+/* Testimonials Section Start
   ================================*/
 
 section {
@@ -338,8 +342,10 @@ section p {
 .testimonials-section .features {
   margin-bottom: 30px;
 }
+/* .testimonial End ====== */
 
-/* Courses Section
+
+/* Courses Section Start
   ====================================== */
 
 .courses-section {
@@ -417,9 +423,10 @@ section p {
   position: absolute;
   right: 0;
 }
+/* Course Section End  ===== */
 
-/* App Section   
-  =========================== */
+/* App Section  Start 
+=========================== */
 .app-section {
   text-align: center;
 }
@@ -455,11 +462,11 @@ section p {
 .app-section .app-buttons .app-btn {
   width: 50%;
 }
-
+/* App Sectoin End == */
 
 
 /*===========================================
- Contact Us Page Style
+ Contact Us Page Start
 =========================== */
 
 .contact{
@@ -480,7 +487,7 @@ section p {
   border-radius: 0.6rem;
 }
 
-/*Contact Section1 Style 
+/*Contact Section1  Start
 ================================ */
 
 .contact-section1 {
@@ -494,9 +501,9 @@ section p {
    font-size: 1.8rem;
    margin-top: 0;
 }
+/* Contact Section1  End == */
 
-/* left Section style 
-= */
+/* left Section Start == */
 
 .contact-section1 .left form input{
   width: 45%;
@@ -523,8 +530,9 @@ font-size: 1.2rem;
   font-size: 1.4rem;
   cursor: pointer;
 }
+/* left Section End== */
 
-/* right section st/yle 
+/* right section Start
 ============  */
 .contact-section1 .right {
   width: 90vh;
@@ -558,12 +566,15 @@ font-size: 1.2rem;
 .contact-section1 .right .information div p{
   color: white
 }
+/* right section End == */
 
+/* Contact Us Page End
+=================================== */
 
 
 
 /*=================================================
- Footer Section 
+ Footer Section Start
   =========================== */
 
 footer {
@@ -646,6 +657,9 @@ footer .copyright {
   text-align: center;
 }
 
+/* Footer Section End 
+================================ */
+
 nav.mobile-nav,
 .mobile-menu-container {
   display: none;
@@ -727,7 +741,7 @@ nav.mobile-nav,
         margin: 40px;
       }
     
-      /* @media on Testimonial sectoin  
+      /* @media on Testimonial sectoin Start 
         ========================== */
     
       h2 {
@@ -783,8 +797,9 @@ nav.mobile-nav,
       .testimonials-section h2{
         margin-bottom: 20px;
       }
+       /* .testimonial End == */
     
-      /* @media at  Course Section  
+      /* @media at  Course Section  Start 
       =========================== */
       .courses-section .course-cards{
         flex-direction: column;
@@ -818,8 +833,10 @@ nav.mobile-nav,
       .courses-section .course-card:last-child {
         margin-bottom: 50px;
       }
-    
-      /* Contact US 
+    /* Course section End == */
+
+
+      /* Contact US  Start
       ====================== */
       .contact .map iframe {
         width: 80vw;
@@ -833,8 +850,9 @@ nav.mobile-nav,
       .contact-section1 .left form input[type= 'button'] {
         width: 43%;
       }
+      /* Contact us End  */
     
-      /* @media Footer Section  
+      /* @media Footer Section Start 
       ==============================*/
       footer .links-container {
         grid-template-columns: 1fr 1fr;
@@ -845,6 +863,7 @@ nav.mobile-nav,
       }
     
     }
+    /* Footer section End  */
     
     /* @media on 800px 
     ============================== */
