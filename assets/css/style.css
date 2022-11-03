@@ -109,6 +109,14 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
 }
+nav ul li a:hover {
+  border-bottom: 3px solid #fff;
+  
+}
+nav ul li a.btn:hover {
+  border-bottom: none;
+
+}
 
 /* Hero Section  Start
   =======================*/
@@ -937,10 +945,17 @@ nav.mobile-nav,
         color: #fff;
         text-decoration: none;
         font-size: 30px;
+      }
+      .mobile-menu-container ul li a:hover {
+        border-bottom: 3px solid #fff;
+        
+      }
+      .mobile-menu-container ul li a.btn:hover {
+        border-bottom: none;    
       }  
     
     }
-    
+
     /*==================================
      @media at 700px *
      ===========================================*/

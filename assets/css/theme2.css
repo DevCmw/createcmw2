@@ -110,7 +110,17 @@
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.5s linear ease;
   }
+  nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+    
+  }
+  nav ul li a.btn:hover {
+    border-bottom: none;
+
+  }
+
   
   /* Hero Section  
     =======================*/
@@ -852,7 +862,7 @@
   ============================== */
   /* @media nav style  */
   
-  @media (max-width: 800px) {
+  @media (max-width: 800px){
     nav {
       display: none;
     }
@@ -916,11 +926,19 @@
       text-align: center;
     }
   
-    .mobile-menu-container ul li a {
+    .mobile-menu-container ul li a{
       color: #fff;
       text-decoration: none;
       font-size: 30px;
-    }  
+    } 
+    .mobile-menu-container ul li a:hover {
+      border-bottom: 3px solid #fff;
+      
+    }
+    .mobile-menu-container ul li a.btn:hover {
+      border-bottom: none;
+  
+    } 
   
   }
   
