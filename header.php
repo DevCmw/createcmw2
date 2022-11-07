@@ -10,8 +10,14 @@
                 <a href="#">About</a>
               </li>
   
-              <li>
-                <a href="#course">Courses</a>
+              <li id= "coursesDropdown">
+                <a href="#" >Courses</a>
+                <ul class = "dorp-content">
+                  <li><a href="#course">Link 1</a></li>
+                  <li><a href="#">Link 2</a> </li>
+                  <li><a href="#">Link 3</a> </li>
+                  <li><a href="#">Link 4</a> </li>
+                </ul>
               </li>
   
               <li>
